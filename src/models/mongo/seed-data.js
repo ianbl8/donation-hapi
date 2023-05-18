@@ -37,7 +37,7 @@ export const seedData = {
     _model: "Donation",
     one: {
       amount: 40,
-      method: "paypal",
+      method: "Paypal",
       lat: "52.160858",
       lng: "-7.152420",
       donor: "->users.bart",
@@ -45,7 +45,7 @@ export const seedData = {
     },
     two: {
       amount: 90,
-      method: "direct",
+      method: "Direct",
       lat: "52.149220",
       lng: "-6.994620",
       donor: "->users.marge",
@@ -53,7 +53,7 @@ export const seedData = {
     },
     three: {
       amount: 430,
-      method: "paypal",
+      method: "Paypal",
       lat: "52.161290",
       lng: "-7.231540",
       donor: "->users.homer",

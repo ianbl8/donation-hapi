@@ -47,19 +47,19 @@ export const testCandidates = [
 export const testDonations = [
   {
     amount: 90,
-    method: "cash",
+    method: "Direct",
     lat: "52.160858",
     lng: "-7.152420",
   },
   {
     amount: 80,
-    method: "cash",
+    method: "Direct",
     lat: "52.149220",
     lng: "-6.994620",
   },
   {
     amount: 50,
-    method: "paypal",
+    method: "Paypal",
     lat: "52.161290",
     lng: "-7.231540",
   },
