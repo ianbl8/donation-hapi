@@ -34,8 +34,10 @@ export const donationApi = {
         request.payload.amount,
         request.payload.method,
         request.auth.credentials,
-        candidate
-      );
+        candidate,
+        request.payload.lat,
+        request.payload.lng,
+    );
       return donation;
     },
   },
